@@ -1,0 +1,46 @@
+.header h1 {
+    color: rgb(41, 5, 5);
+    font-family: cursive;
+    font-size: 50px;
+ }
+.header {
+    text-align: center;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSe2MZSD00IeG7dxxU3TgFb5kVH5X7QRwXOZg&usqp=CAU");
+    font-weight: bold;
+    padding: 1px;
+    height: 200px;
+    width: 100%;
+    left: 100%;
+    opacity: 1;
+}
+.header p {
+    text-align: left;
+    font-weight: bold;
+    color: rgb(0, 0, 3);   
+}
+a:hover {
+    box-shadow: darkslategray;
+    color: beige;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: darkolivegreen;
+    padding: 2px 2px 2px 2px; 
+    border: 2px solid;
+}
+a.active {
+    color: white;
+    background-color: darkred;
+    padding: 2px 2px 2px 2px; 
+    border: 2px solid;
+}
+p {
+    text-align: justify;
+    padding: 20px;
+}
+
+/* CSS ABOUT ME */
+.commentbox textarea {
+    box-sizing: border-box;
+    padding: 20px;
+    width: 330px;
+
+}
